@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 import React from 'react'
 import BannerIMG from '../../Assets/images/about-us.png'
 import '../Styles/About.css'
+=======
+import React from "react";
+>>>>>>> 86af6111f258e9b35a939bec3bf7241fe08f1946
 
 const About = () => {
   return (
     
       <>
+<<<<<<< HEAD
       <div>
         {/* <img className='wd-2' src={BannerIMG} alt="about-us-banner-img" /> */}
       </div>
@@ -27,12 +32,34 @@ const About = () => {
                 Thank you for choosing No Queue. Together, let's make waiting in queues a thing of the past!
                 </div>
                 </p>
+=======
+        <div>
+          <div className="row">
+            <div className="image col-lg-6">
+              <img src="" alt="" />
             </div>
+            <div className="about col-lg-6 py-10">
+              <p className="aboutUs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ipsam, facilis eaque animi mollitia libero
+                necessitatibus vitae cumque, doloremque soluta quos? Culpa,
+                deserunt vitae pariatur cum dolorem porro consectetur tempore?
+                *ARIF*
+              </p>
+>>>>>>> 86af6111f258e9b35a939bec3bf7241fe08f1946
+            </div>
+          </div>
         </div>
+      </>
     </div>
+<<<<<<< HEAD
     </>
     
   )
 }
+=======
+  );
+};
+>>>>>>> 86af6111f258e9b35a939bec3bf7241fe08f1946
 
-export default About
+export default About;
