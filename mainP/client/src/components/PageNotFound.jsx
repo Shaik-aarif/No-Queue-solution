@@ -4,6 +4,7 @@ const PageNotFound = () => {
   return (
     <div>
       <p>arif</p>
+      <p>arif</p>
     </div>
   );
 };
