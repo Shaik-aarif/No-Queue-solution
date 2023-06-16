@@ -1,6 +1,6 @@
 
 import React from "react";
-import {createBrowserRouter , RouterProvider} from 'react-router-dom'
+import {createBrowserRouter , RouterProvider } from 'react-router-dom'
 
 // importing all the 
 import Home from "./components/home/Home";
@@ -15,6 +15,7 @@ const router = createBrowserRouter([
     path : "/",
     element : <div><Home></Home></div>
   },
+ 
  
   
   

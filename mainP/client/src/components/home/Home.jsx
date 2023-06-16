@@ -3,13 +3,13 @@ import React from 'react'
 import Navbar from './Navbar';
 
 import About from "./About";
-import Ask from "./Ask";
+import Services from "./Services";
 const Home = () => {
   return (
     <div>
       <Navbar></Navbar>
     <About></About>
-    <Ask></Ask>
+    <Services></Services>
     </div>
   )
 }
