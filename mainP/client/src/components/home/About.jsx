@@ -1,6 +1,6 @@
 import React from 'react'
 import BannerIMG from '../../Assets/images/about-us.png'
-import '../Styles/About.css'
+import '../Styles/home_styles/About.css'
 
 const About = () => {
   return (
