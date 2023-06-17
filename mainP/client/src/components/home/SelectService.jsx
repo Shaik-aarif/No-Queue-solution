@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/SelectService.css'
+import '../Styles/home_styles/SelectService.css'
 
 const SelectService = () => {
   return (
