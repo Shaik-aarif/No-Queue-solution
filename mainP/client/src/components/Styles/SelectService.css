@@ -1,0 +1,16 @@
+.SelectService{
+    margin: 0 8%;
+    margin-top: 6% ;
+    /* temp */
+    margin-bottom: 10%;
+}
+
+.SelectService .areYou .are{
+    margin-left: 210px;
+    margin-bottom: 5%;
+}
+
+.SelectService button.btn{
+    padding-left: 100px;
+    padding-right: 100px;
+}

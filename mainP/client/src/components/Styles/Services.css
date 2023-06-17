@@ -1,0 +1,14 @@
+.services-section ul{
+    list-style-type: disc;
+    margin-top: 3%;
+}
+ul li{
+    line-height: 25px;
+    margin: 10px;
+}
+.services-section{
+    margin : 0 8%;
+}
+.services-section .intro{
+    margin-bottom :5%;
+}
