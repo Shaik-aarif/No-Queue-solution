@@ -6,9 +6,7 @@ const About = () => {
   return (
     
       <>
-      <div>
-        {/* <img className='wd-2' src={BannerIMG} alt="about-us-banner-img" /> */}
-      </div>
+      
     <div className="about-section" id="AboutUs">
         <div className="row mt-5 ">
             <div className="image col-lg-6">
@@ -16,7 +14,7 @@ const About = () => {
             </div>
             <div className="about col-lg-6 py-10">
                 <p className="aboutUs">
-                <div className="intro text-2xl">About Us </div>
+                <div className="intro text-3xl">About Us </div>
                 <div className = "para mt-3">
                 Welcome to No Queue! We are revolutionizing queue management in the food industry by eliminating traditional queues. Our web application offers a seamless and efficient experience, allowing you to conveniently order food remotely and receive a unique token for hassle-free collection of your packed orders. Join us in transforming the way food orders are managed and say goodbye to waiting in queues. 
                 </div>
