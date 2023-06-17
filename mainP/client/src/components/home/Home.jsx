@@ -3,7 +3,9 @@ import React from "react";
 import Navbar from "./Navbar";
 
 import About from "./About";
+
 import Services from "./Services";
+
 const Home = () => {
   return (
     <div>
@@ -13,4 +15,5 @@ const Home = () => {
     </div>
   );
 };
+
 export default Home;
