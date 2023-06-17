@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Styles/Footer.css"
+import "../Styles/home_styles/Footer.css"
 import { IoLogoLinkedin } from "react-icons/io";
 const Footer = () => {
   return (
