@@ -15,10 +15,10 @@ const SelectService = () => {
 
       <div className="buttons">
       <div className="row">
-        <div className="col-lg-6 flex items-center justify-end">
+        <div className="col-lg-6  col-md-12 flex items-center justify-end">
       <button className="btn btn-dark " >Merchant</button>
         </div>
-        <div className="col-lg-6 flex items-center justify-start">
+        <div className="col-lg-6 col-md-12 flex items-center justify-start">
       <button className="btn btn-dark" >Customer</button>
         </div>
       </div>

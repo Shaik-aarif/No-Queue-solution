@@ -1,5 +1,6 @@
 import React from 'react'
 import { useAuth0 } from "@auth0/auth0-react";
+import {Link} from 'react-router-dom'
 import '../Styles/home_styles/Navbar.css'
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
   <a className="navbar-brand" href="/">NoQ</a>
     <ul className="navbar-nav ml-auto gap-8">
       <li className="nav-item active">
-        <a className="nav-link" href="#navbar" >Home <span className="sr-only">(current)</span></a>
+        <Link className="nav-link" to="/" >Home <span className="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#AboutUs">About Us</a>
