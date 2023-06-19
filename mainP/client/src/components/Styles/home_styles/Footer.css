@@ -1,3 +1,24 @@
 .footer-section{
-    padding: 5rem 0;
+    background-color: rgb(152, 254, 139);
+}
+.footer-container{
+    margin: 0 8%;
+    padding: 5rem 0 2rem 0;
+
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.social-icons a{
+    padding: 2px 2%;
+}
+.footer-section .intro{
+    margin: 25px;
+}
+.footer-section .copyright{
+    padding-top: 2%;
+    text-align: center;
 }
