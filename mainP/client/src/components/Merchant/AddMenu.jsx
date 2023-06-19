@@ -27,8 +27,8 @@ const AddMenu = () => {
             <Navbar></Navbar>
         </div>
     <div  className="addmenu-section">
-    <div className="addmenu-content h-auto min-h-screen flex items-center justify-center">
-      <div className="item-border w-[90%] md:w-[75%]  rounded-lg py-3 flex items-center justify-center flex-col ">
+    <div className="addmenu-content h-auto min-h-screen w-full  flex items-center justify-center">
+      <div className="item-border w-[90%] md:w-[75%] rounded-lg py-3 flex items-center justify-center flex-col ">
         {
             fields && (
                 <p className={`w-[95%] text-center rounded-lg p-2   ${alertStatus === 'danger' ? 
@@ -37,7 +37,7 @@ const AddMenu = () => {
             )
         }
         
-       <div className="item-name w-[90%] py-2 border-b border-gray-300 flex  items-center justify-start ml-2  gap-2">
+       <div className="item-details w-[90%] py-2 border-b border-gray-300 flex  items-center justify-start ml-2  gap-2">
           <MdFastfood  className="text-xl icons text-grey-400"/>
           <input
             type = "text"
@@ -69,7 +69,7 @@ const AddMenu = () => {
                          />
                     </label>
                   </>) :  (<>
-                    <div className="relative h-full">
+                    <div className="absolute h-full">
                     <img src = {imageAsset} alt = "uploadedimage" className="w-full h-full object-cover" />
                     <button
                       type="button"
@@ -86,7 +86,7 @@ const AddMenu = () => {
         </div>
             
             {/* price section */}
-            <div className="item-name w-[90%] py-2 border-b border-gray-300 flex  items-center justify-start ml-2  gap-2">
+            <div className="item-details w-[90%] py-2 border-b border-gray-300 flex  items-center justify-start ml-2  gap-2">
           <MdCurrencyRupee  className="text-xl icons text-grey-400"/>
           <input
             type = "text"
@@ -99,7 +99,7 @@ const AddMenu = () => {
           />
        </div>
        {/* time */}
-       <div className="item-name w-[90%] py-2 border-b border-gray-300 flex  items-center justify-start ml-2  gap-2">
+       <div className="item-details w-[90%] py-2 border-b border-gray-300 flex  items-center justify-start ml-2  gap-2">
           <MdAccessTimeFilled  className="text-xl icons text-grey-400"/>
           <input
             type = "text"

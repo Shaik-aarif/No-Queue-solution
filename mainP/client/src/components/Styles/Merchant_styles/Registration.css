@@ -6,16 +6,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+/* body{
     min-height: 100vh;
     display: flex;
     align-items: center1;
     justify-content: center;
-    /* background: #99bfc1; */
+    
     height: 1000px;
     border-radius: 20px;
     
-}
+} */
     .Merchant-Info .container{
     position: relative;
     max-width: 900px;

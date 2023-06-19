@@ -15,3 +15,6 @@
 .addmenu-section .icons:hover{
     color: rgb(61, 61, 61);
 }
+.addmenu-section .item-details{
+    border-bottom: 1px solid rgb(163, 157, 157);
+}
