@@ -7,3 +7,11 @@
 .addmenu-section .item-border{
     border: 1px solid rgb(147, 139, 139);
 }
+
+.addmenu-section .icons{
+    color: rgb(98, 98, 98);
+}
+
+.addmenu-section .icons:hover{
+    color: rgb(61, 61, 61);
+}
