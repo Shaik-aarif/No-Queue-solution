@@ -7,6 +7,7 @@ import Home from "./components/home/Home";
 import Search from "./components/Customer/Search"
 import Registration from "./components/Merchant/Registration";
 import AddMenu from "./components/Merchant/AddMenu";
+import Payment from "./components/Payment/Payment";
 
 
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path : "/AddMenu",
     element : <div><AddMenu></AddMenu></div>
+  },
+  {
+    path : "/Payment",
+    element : <div><Payment></Payment></div>
   },
 
 ])
