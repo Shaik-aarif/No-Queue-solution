@@ -1,0 +1,20 @@
+.addmenu-section{
+    margin: 0 8%;
+}
+.addmenu-content{
+    margin-top: 60px;
+}
+.addmenu-section .item-border{
+    border: 1px solid rgb(147, 139, 139);
+}
+
+.addmenu-section .icons{
+    color: rgb(98, 98, 98);
+}
+
+.addmenu-section .icons:hover{
+    color: rgb(61, 61, 61);
+}
+.addmenu-section .item-details{
+    border-bottom: 1px solid rgb(163, 157, 157);
+}

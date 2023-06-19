@@ -1,0 +1,106 @@
+# No-Queue-solution
+Our Final year Project
+
+                                                   Token Based Queue Management System for Restaurants
+                                                   
+                                                                ARIF SHAIK-20030312466
+                                                                FAIZAN SHAIK- 200303124467
+                                                                MADHU BAVIREDDY- 200303124142 
+                                                                
+                                                                
+                                                                
+                                                                     
+# Project Title & Abstract
+
+Token Based Queue Management System for Restaurants
+
+
+In today's fast-paced world, time is of the essence, and people are always on the lookout for ways to
+save time and increase efficiency. One area where people often spend a lot of time waiting in line is
+at various public places such as banks, government offices, hospitals, and other service centres. The
+traditional method of waiting in a physical queue is not only time-consuming but also frustrating and
+inefficient. The solution to this problem lies in the adoption of a digital token system that eliminates
+the physical queue and enables customers to book their spot in the queue remotely
+
+## Project Aim
+
+This project aims to develop a token-based queue management system that eliminates the need for
+physical queues in restaurants. The system allows customers to order food through a web application
+and generates a token for them to collect their packed order physically. This approach saves time and
+improves efficiency for both customers and restaurant staff by eliminating the need for customers to
+wait in a physical queue. The web application will be designed to be user-friendly, with real-time
+updates on the status of orders and estimated waiting times. The system will be beneficial for
+restaurants, as it will reduce the workload on staff and improve the overall customer experience. By
+integrating online ordering with a token-based queue management system, the project aims to
+streamline the food ordering process and provide a seamless experience for customers. 
+
+
+
+## Team
+
+- [@Faizan shaik](https://github.com/FAIZAN-SHAIK)
+- [@Arif Shaik]()
+- [@Madhu Bavireddy]()
+
+
+## Features
+
+- Elimination of Physical Queues
+- Estimated Waiting Times
+- Web Application
+- Token Generation
+
+
+
+## Tech Stack
+
+**Client:** React , css ,java script, css
+
+**Server:** 
+
+
+## Roadmap
+
+- Front End
+
+- Back End
+
+- Databases
+
+- Payment Gateaway
+
+- Queue Management
+
+- Security
+
+- Deployment
+
+- Version control
+
+- CI/CD
+
+
+
+## FAQ
+
+#### Q1  : How does the token-based queue management system benefit customers?
+
+The system benefits customers by eliminating the need to wait in physical queues, saving their time and providing a more convenient and efficient food ordering experience.
+
+#### Q2  : How does the token generation process work?
+
+Once a customer places an order through the web application, the system generates a unique token for them, which they can use to collect their packed order physically from the restaurant.
+
+#### Q3  : What real-time updates will the web application provide to customers?
+
+The web application will provide real-time updates on the status of orders, allowing customers to track their order's progress from preparation to ready for collection.
+
+
+#### Q4  : How does the system help restaurant staff?
+
+The system reduces the workload on restaurant staff by eliminating the need to manage physical queues. They can focus on preparing orders and providing better customer service, resulting in improved efficiency.
+
+#### Q5  : Can the system handle online orders and integrate them with the token-based queue management?
+
+Yes, the system is designed to integrate online ordering seamlessly with the token-based queue management. Customers can place their orders remotely, and the system will generate a token for them to collect their orders physically at the restaurant.
+
