@@ -8,6 +8,8 @@ import Search from "./components/Customer/Search"
 import Registration from "./components/Merchant/Registration";
 import AddMenu from "./components/Merchant/AddMenu";
 import Payment from "./components/Payment/Payment";
+import CustomerPage from "./components/Customer/CustomerPage";
+import { AnimatePresence } from "framer-motion";
 
 
 
@@ -36,16 +38,25 @@ const router = createBrowserRouter([
     path : "/Payment",
     element : <div><Payment></Payment></div>
   },
+  {
+    path : "/CustomerPage",
+    element : <div><CustomerPage></CustomerPage></div>
+  },
+
 
 ])
 
 // app function
 function App() {
   return (
+    <AnimatePresence >
     <main>
       <RouterProvider router={router}></RouterProvider>
     </main>
+    </AnimatePresence>
   );
 }
 
 export default App;
+
+

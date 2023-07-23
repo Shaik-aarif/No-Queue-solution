@@ -2,19 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { Auth0Provider } from "@auth0/auth0-react";
+// import { Auth0Provider } from "@auth0/auth0-react";
+import { StateProvider } from './context/StateProvider';
+import { initialState } from './context/initialState';
+import reducer from './context/reducer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Auth0Provider
-    domain="dev-pgwvrbr5h0b45v15.us.auth0.com"
-    clientId="wbbljKYFw1dWGqBSyCCj3zV019z6OWMz"
-    authorizationParams={{
-      redirect_uri: window.location.origin
-    }}
-  >
+   <StateProvider initialState={initialState} reducer={reducer}>
     <App />
-  </Auth0Provider>
+   </StateProvider>
 );
 

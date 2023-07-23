@@ -1,4 +1,5 @@
 /* ===== Google Font Import - Poppins ===== */
+/* 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
 * {
   margin: 0;
@@ -6,16 +7,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/* body{
+body{
     min-height: 100vh;
     display: flex;
     align-items: center1;
     justify-content: center;
-    
     height: 1000px;
     border-radius: 20px;
-    
-} */
+}
 .Merchant-Info .container {
   position: relative;
   max-width: 900px;
@@ -171,4 +170,4 @@ form .backBtn i {
   form .fields .input-field {
     width: 100%;
   }
-}
+} */
