@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "tailwind-scrollbar": "^3.0.4"
   }
 }

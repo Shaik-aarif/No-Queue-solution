@@ -1,20 +1,53 @@
 import React from "react";
+import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { MdChevronLeft, MdChevronRight } from "react-icons/md"; 
+import Navbar from "../home/Navbar";
+import RowContainer from "./RowContainer";
+import { useStateValue } from "../../context/StateProvider";
 
 const CustomerPage = () => {
+
+  const [scrollValue, setScrollValue] = useState(0);
+  const [{ foodItems }, dispatch] = useStateValue();
+
+  useEffect(() => {}, [scrollValue, ]);
+
   return (
-    <div>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo molestiae,
-      vitae architecto eligendi ducimus debitis molestias exercitationem, est
-      saepe cum soluta, odio tempora officia corrupti sint? Laudantium inventore
-      culpa minima aliquid beatae, cumque non eaque, sit ut deserunt facere!
-      Nihil voluptatibus ratione, consequatur animi fuga ipsam voluptas,
-      molestias tempora tenetur porro unde tempore est doloremque harum, culpa
-      veniam aperiam cum sapiente dolores veritatis? Accusantium soluta atque
-      eveniet. Distinctio placeat molestiae hic. Alias obcaecati eius dolorum,
-      animi dolor tempore cupiditate nemo laborum at deserunt! In,
-      exercitationem voluptatem aspernatur enim rerum eaque animi voluptates
-      perspiciatis cum porro reiciendis quas eius atque doloremque!
+  <>
+  {/* <Navbar/> */}
+    <div className="main_container bg-grey-800 px-14 pt-14">
+    <section className="w-full my-6">
+        <div className="w-full flex items-center justify-between">
+          <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:content before:w-32 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-orange-400 to-orange-600 transition-all ease-in-out duration-100">
+            Our Special items
+          </p>
+
+          <div className="hidden md:flex gap-3 items-center">
+            <motion.div
+              whileTap={{ scale: 0.75 }}
+              className="w-8 h-8 rounded-lg bg-orange-300 hover:bg-orange-500 cursor-pointer  hover:shadow-lg flex items-center justify-center"
+              onClick={() => setScrollValue(-200)}
+            >
+              <MdChevronLeft className="text-lg text-white" />
+            </motion.div>
+            <motion.div
+              whileTap={{ scale: 0.75 }}
+              className="w-8 h-8 rounded-lg bg-orange-300 hover:bg-orange-500 cursor-pointer transition-all duration-100 ease-in-out hover:shadow-lg flex items-center justify-center"
+              onClick={() => setScrollValue(200)}
+            >
+              <MdChevronRight className="text-lg text-white" />
+            </motion.div>
+          </div>
+        </div>
+        <RowContainer
+          scrollValue={scrollValue}
+          flag={true}
+          data={foodItems?.filter((n) => n.category === "specials")}
+        />
+      </section>
     </div>
+  </>
   );
 };
 

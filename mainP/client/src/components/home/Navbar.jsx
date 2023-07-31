@@ -101,7 +101,7 @@ const Navbar = () => {
     
     </ul>
     <div className="userAvatar relative">
-      <motion.img whileTap={{scale:0.6}} src={user? user.photoURL : avatar}  className="w-10 min-w-[40px] h-10 min-h-[40px] rounded-full " alt="userProfile" 
+      <motion.img whileTap={{scale:0.6}} src={user ? user.photoURL : avatar}  className="w-10 min-w-[40px] h-10 min-h-[40px] rounded-full " alt="userProfile" 
         onClick={login}
 
       />
